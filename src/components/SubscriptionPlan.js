@@ -5,8 +5,8 @@ import { CheckIcon, XIcon, LeafIcon, ZapIcon } from "lucide-react";
 export default function SubscriptionPlans() {
   const plans = [
     {
-      name: "Standard",
-      price: "$15",
+      name: "Basics",
+      price: "Rs.1000",
       period: "/month",
       features: [
         { name: "5 disease classifications monthly", included: true },
@@ -19,7 +19,7 @@ export default function SubscriptionPlans() {
     },
     {
       name: "Standard",
-      price: "$35",
+      price: "Rs.5000",
       period: "/month",
       features: [
         { name: "10 disease classifications monthly", included: true },
@@ -32,7 +32,7 @@ export default function SubscriptionPlans() {
     },
     {
       name: "Advanced",
-      price: "$50",
+      price: "Rs.10000",
       period: "/month",
       features: [
         { name: "Unlimited disease classifications", included: true },
