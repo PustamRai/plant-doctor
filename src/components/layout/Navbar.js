@@ -12,7 +12,7 @@ export function Navbar() {
     { name: "Home", href: "/" },
     { name: "Features", href: "/#features" },
     { name: "How It Works", href: "/#how-it-works" },
-    { name: "Analyze Plant", href: "/#upload" },
+    { name: "Analyze Plant", href: "/#analyse-plant" },
     { name: "FAQ", href: "/#faq" },
   ];
 
@@ -93,7 +93,7 @@ export function Navbar() {
               <span className="sr-only">Toggle menu</span>
             </Button>
           </SheetTrigger>
-          <SheetContent side="right" className="w-[300px] sm:w-[400px]">
+          <SheetContent side="right" className="w-[300px] sm:w-[400px] px-2">
             <nav className="flex flex-col gap-4">
               {navItems.map((item) => (
                 <Link

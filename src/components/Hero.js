@@ -51,7 +51,7 @@ export function Hero() {
                 size="lg"
                 className="bg-green-600 text-lg hover:bg-green-700"
               >
-                <Link href="#upload">Analyze Your Plant</Link>
+                <Link href={"/analyse-plant"}>Analyze Your Plant</Link>
               </Button>
               <Button
                 asChild
