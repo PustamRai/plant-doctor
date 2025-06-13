@@ -10,7 +10,7 @@ export default function AnalyzePlant() {
       </h2>
 
       {/* upload image and chat with AI */}
-      <div className="mx-auto rounded-xl bg-white p-8 shadow-lg flex justify-center items-center gap-10">
+      <div className="mx-auto rounded-xl bg-white p-8 shadow-lg sm:flex flex-col justify-center items-center gap-4">
         <div>
           <UploadForm />
         </div>

@@ -12,7 +12,7 @@ export function Navbar() {
     { name: "Home", href: "/" },
     { name: "Features", href: "/#features" },
     { name: "How It Works", href: "/#how-it-works" },
-    { name: "Analyze Plant", href: "/#analyse-plant" },
+    { name: "Subscription", href: "/#subscription-plan" },
     { name: "FAQ", href: "/#faq" },
   ];
 
