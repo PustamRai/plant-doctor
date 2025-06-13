@@ -133,8 +133,8 @@ export function UploadForm() {
 
   return (
     <div>
-      <form onSubmit={handleSubmit} className="space-y-6">
-        <div className="flex flex-col items-center justify-center">
+      <form onSubmit={handleSubmit} className="space-y-6 h-[600px] max-w-2xl">
+        <div className="flex flex-col items-center justify-center ">
           <label
             htmlFor="image-upload"
             className="flex h-64 w-full cursor-pointer flex-col items-center justify-center rounded-lg border-2 border-dashed border-green-300 bg-green-50 hover:bg-green-100"
