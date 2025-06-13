@@ -1,3 +1,4 @@
+import { PlantChat } from "@/components/PlantChat";
 import { UploadForm } from "@/components/UploadForm";
 import React from "react";
 
@@ -7,11 +8,16 @@ export default function AnalyzePlant() {
       <h2 className="mb-8 text-center text-3xl font-bold text-green-800">
         Analyze Your Plant
       </h2>
-      <div
-        id="upload"
-        className="mx-auto max-w-2xl rounded-xl bg-white p-8 shadow-lg"
-      >
-        <UploadForm />
+
+      {/* upload image and chat with AI */}
+      <div className="mx-auto rounded-xl bg-white p-8 shadow-lg flex justify-center items-center gap-10">
+        <div>
+          <UploadForm />
+        </div>
+
+        <div>
+          <PlantChat />
+        </div>
       </div>
     </section>
   );
