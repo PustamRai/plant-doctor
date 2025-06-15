@@ -47,7 +47,7 @@ export function Navbar() {
             </svg>
           </div>
           <Link href="/" className="text-2xl font-bold text-green-800">
-            PlantDoctor
+            Krishi Netra
           </Link>
         </div>
 

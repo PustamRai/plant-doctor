@@ -28,7 +28,7 @@ export function FAQ() {
         "Free accounts can analyze up to 5 images per month. Premium subscribers have unlimited analyses and additional features like history tracking and detailed treatment guides.",
     },
     {
-      question: "Can PlantDoctor identify pests as well as diseases?",
+      question: "Can Krishi Netra identify pests as well as diseases?",
       answer:
         "Yes, PlantDoctor can identify many common plant pests and the damage they cause, including aphids, spider mites, whiteflies, and more. The system will provide pest identification and control recommendations.",
     },

@@ -26,7 +26,7 @@ export function Footer() {
                   <path d="M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4 1-1 1.6-2.3 1.7-4.6-2.7.1-4 1-4.9 2z" />
                 </svg>
               </div>
-              <span className="text-xl font-bold">PlantDoctor</span>
+              <span className="text-xl font-bold">Krishi Netra</span>
             </div>
             <p className="mb-4 text-green-100">
               Your AI-powered plant disease detection and treatment assistant.
@@ -179,7 +179,7 @@ export function Footer() {
                   <rect width="20" height="16" x="2" y="4" rx="2" />
                   <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
                 </svg>
-                <span>support@plantdoctor.com</span>
+                <span>support@krishinetra.com</span>
               </li>
               <li className="flex items-start gap-2">
                 <svg
@@ -223,7 +223,7 @@ export function Footer() {
         <div className="mt-8 border-t border-green-700 pt-8">
           <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
             <p>
-              &copy; {new Date().getFullYear()} PlantDoctor. All rights
+              &copy; {new Date().getFullYear()} KrishiNetra. All rights
               reserved.
             </p>
             <div className="flex gap-4">
